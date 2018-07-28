@@ -6,7 +6,7 @@ const menu=()=>{
         <section id="menu">
 
             <div id="menuBackgroundImage">
-                <img src="http://mutationmedia.net/COFFEEBEN/img/6.jpg" id="menuImage"/>
+                <img src="http://mutationmedia.net/COFFEEBEN/img/6.jpg" id="menuImage" alt=""/>
             </div>
 
             <div id="menuContainer">
