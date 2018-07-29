@@ -1,10 +1,8 @@
 import React from 'react';
 
-const aboutImages=()=>{
+const aboutImages=({image})=>{
     return(
-        <div>
-        
-        </div>
+        <img id="aboutImage" src={image} alt=""/>
     )
 }
 

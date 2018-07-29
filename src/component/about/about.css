@@ -135,6 +135,9 @@
     font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-bottom: 3rem !important;
+    font-size: .8571rem;
+    position: relative;
+    color: inherit;
 }
 
 #aboutTextSection{
@@ -142,6 +145,42 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#aboutContent{
+    text-align: center !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#aboutImagesContainer{
+    column-count: 2;
+    -webkit-column-gap: 7px;
+    margin-bottom: 3rem !important;
+}
+
+#aboutImage{
+    margin-bottom: 7px;
+}
+
+#aboutImages{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 100%;
+    max-width: 75%;
     position: relative;
     width: 100%;
     min-height: 1px;

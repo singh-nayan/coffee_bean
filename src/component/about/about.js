@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutImages from './aboutImages';
+import Images from './aboutImagesData';
 import './about.css';
 
 const about=()=>{
@@ -20,9 +21,15 @@ const about=()=>{
                 </div>
             </div>
 
-            <div className="aboutContainer">
+            <div className="aboutContainer">    
                 <div id="aboutContent">
-                    <div id="aboutImages">{<AboutImages/>}</div>
+                    <div id="aboutImages">
+                        <div id="aboutImagesContainer">
+                            <AboutImages image={Images.image1}/>
+                            <AboutImages image={Images.image2}/>
+                            <AboutImages image={Images.image3}/>
+                        </div>
+                    </div>
                     <div id="aboutTextSection">
                         <div id="aboutText">
                             <p id="aboutPara1">“Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called.”</p>
