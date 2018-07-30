@@ -1,20 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Hero from './component/hero/hero';
-import Reservation from './component/reservation/reservation';
-import Menu from './component/menu/menu';
-import About from './component/about/about';
+import {render} from 'react-dom';
+import CoffeeBen from './CoffeeBen'
+import { createStore, applyMiddleware, compose } from 'redux';// needed for store
+import {mainMenuReducer} from './reducers/mainMenuReducer';
 
-const App=()=>{
-    return(
-        <div className="App">
-            {<Hero/>}
-            {/*<About/>*/}
-            {/*<Menu/>*/}
-            {/*<Reservation/>*/}
-        </div>
-    )
+function configureStore() {
+    return createStore(   
+        mainMenuReducer,
+        compose(
+            window.devToolsExtension ? window.devToolsExtension() : (f) => f
+        )
+    );
 }
+const store = configureStore(); 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+render(<CoffeeBen store={store}/>, document.getElementById('root'));

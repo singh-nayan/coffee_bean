@@ -1,0 +1,16 @@
+.mainMenuBckgImage{
+    display: none;
+    position: relative;
+    background-position: 50% 8% !important;
+    background-image: url(http://mutationmedia.net/COFFEEBEN/img/16.png)
+}
+
+.mainMenuContainer{
+    position: relative;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -104,7 +104,6 @@
     display: block;
     margin-top: .775rem;
     height: 38px;
-    
 }
 
 .left{
@@ -126,6 +125,36 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+.list-inline-items{
+    color: #ffffff;
+    position: relative;
+    padding: 1.4rem 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mainNavItem{
+    margin-left: 1rem;
+    display: inline-block;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mainNavItems{
+    padding-left: 0;
+    list-style: none;
+}
+
+.right{
+    margin-right: 1rem;
+    float: right;
+    position: relative;
+}
+
+
+
 
 
 
