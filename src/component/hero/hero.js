@@ -1,5 +1,4 @@
 import React from 'react';
-import HeroSlider from './heroSlider';
 import NavBar from './NavBar';
 import InnerHero from './innerHero';  
 import HeroMainSlider from './heroMainSlider';
@@ -11,7 +10,7 @@ const hero=()=>{
             <HeroMainSlider/>
             <NavBar/>
             <InnerHero/>
-            <HeroSlider/>
+            <div className="polySlider"></div>
         </section>
     )
 }

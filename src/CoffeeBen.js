@@ -7,6 +7,10 @@ import Reservation from './component/reservation/reservation';
 import Menu from './component/menu/menu';
 import About from './component/about/about';
 import MainMenu from './component/mainMenu/mainMenu';
+import Gallery from './component/gallery/gallery';
+import Location from './component/location/location';
+import Offer from './component/offer/offer';
+import Footer from './component/footer/footer';
 
 const CoffeeBen=({store})=>{
     return(
@@ -15,7 +19,11 @@ const CoffeeBen=({store})=>{
             {<About/>}
             {<Menu/>}
             {<MainMenu store={store}/>}
-            {/*<Reservation/>*/}
+            {<Offer/>}
+            {<Location/>}
+            {<Reservation/>}
+            {/*<Gallery/>*/}
+            {<Footer/>}
         </div>
     )
 }

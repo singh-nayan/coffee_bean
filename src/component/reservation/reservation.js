@@ -2,7 +2,7 @@ import React from 'react';
 
 const reservation=()=>{
     return(
-        <section className="reservation" className="main pattern">
+        <section className="main pattern">
             <div className="container">
                 <div className="row justify-content-around align-items-center">
                     <div className="col-12 col-md-6 col-lg-5 text-center text-md-left ">
