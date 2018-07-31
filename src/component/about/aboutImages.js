@@ -2,7 +2,7 @@ import React from 'react';
 
 const aboutImages=({image})=>{
     return(
-        <img id="aboutImage" src={image} alt=""/>
+        <img src={image} alt=""/>
     )
 }
 

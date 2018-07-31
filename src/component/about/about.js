@@ -1,44 +1,46 @@
 import React from 'react';
 import AboutImages from './aboutImages';
 import Images from './aboutImagesData';
-import './about.css';
 
 const about=()=>{
     return(
-        <section id="about">
+        <section id="about" className="main md-top bg-light">
 
-            <div className="aboutContainer">
-                <div id="aboutInnerContainer1">
-                    <div id="aboutInnerContainer2">
-                        <div id="aboutInnerContainer3">
-                            <div id="aboutTitle">
-                                <img id ="waves2" src="http://mutationmedia.net/COFFEEBEN/img/waves-dark.png" alt=""/>
-                                <h1 id="aboutHeading">THE COFFEE SHOP</h1>
-                                <span id="beige">Welcome to Coffeeben</span>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-md-10 col-lg-9 ">
+                        <div className="block-content text-center gap-one-bottom-md">
+                            <div className="block-title ">
+                                <img className ="waves" src="http://mutationmedia.net/COFFEEBEN/img/waves-dark.png" alt=""/>
+                                <h1 className="uppercase mb-0">THE COFFEE SHOP</h1>
+                                <span className="beige">Welcome to Coffeeben</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="aboutContainer">    
-                <div id="aboutContent">
-                    <div id="aboutImages">
-                        <div id="aboutImagesContainer">
+            <div className="container">    
+
+                <div className="row justify-content-center text-center">
+
+                    <div className="col-12 col-lg-9 ">
+                        <div className="card-gallery image-gallery mb-5">
                             <AboutImages image={Images.image1}/>
                             <AboutImages image={Images.image2}/>
                             <AboutImages image={Images.image3}/>
                         </div>
                     </div>
-                    <div id="aboutTextSection">
-                        <div id="aboutText">
-                            <p id="aboutPara1">“Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called.”</p>
-                            <h5 id="aboutHeader">COFFEEBEN KNOWLEDGE</h5>
-                            <p id="aboutPara2">Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called. We already made up about coffee. We are all anticipating for that ultimate cup as we stay in line for our names to be called.</p>
-                            <img id="sign" src="http://mutationmedia.net/COFFEEBEN/img/signature.png" alt=""/>
+
+                    <div className="col-12 col-md-8 col-lg-6">
+                        <div className="block-about">
+                            <p className="quote mb-5 ">“Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called.”</p>
+                            <h5 className="mb-5 alt-font uppercase">COFFEEBEN KNOWLEDGE</h5>
+                            <p className=" mb-5">Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called. We already made up about coffee. We are all anticipating for that ultimate cup as we stay in line for our names to be called.</p>
+                            <img className="sing mb-0" src="http://mutationmedia.net/COFFEEBEN/img/signature.png" alt=""/>
                         </div>
-                    
                     </div>
+
                 </div>
             </div>
 

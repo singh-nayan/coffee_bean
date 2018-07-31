@@ -6,32 +6,30 @@ import MainMenuContent from './mainMenuContent';
 
 const mainMenuContainer=({titles,action})=>{
 
-    let mainMenuConatainerPara= "Mango, Tropical Juices and a Hint of Coconut Blended with Ice and Swirled with Raspberry Puree."
-
     return(
-        <div className="mainMenuContainer">
-            <div className="mainMenuInnerContainer1">
-                <div className="mainMenuInnerContainer2">
-                    <div className="mainMenuInnerContainer3">
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-12 col-md-11 col-lg-10 ">
+                    <div className="block-content  gap-one-top-lg">
 
-                        <ul className="blockTabs">
+                        <ul className="block-tabs">
                             <li onClick={action.coldBeverage}>COLD BEVERAGE</li>
                             <li onClick={action.hotBeverage}>HOT BEVERAGE</li>
                             <li onClick={action.pastry}>PASTRY</li>
                         </ul>
 
-                        <ul className="blockTabs">
-                            <li className="blockList">
-                                <div className="blockRow">
-                                    <div className="blockRowColumn">
-                                        <div className="blockContent">
-                                            <h5>{titles.title1}</h5>
-                                            <p>{mainMenuConatainerPara}</p>
-                                            <span></span>
-                                        </div>
+                        <ul className="block-tabs">
+                            <li className="block-list mt-5">
+                                <div className="row">
+                                    <div className="col-sm-6">
+                                        <MainMenuContent title={titles.title1}/>
+                                        <MainMenuContent title={titles.title2}/>
+                                        <MainMenuContent title={titles.title3}/>
                                     </div>
-                                    <div className="blockRowColumn">
-
+                                    <div className="col-sm-6">
+                                        <MainMenuContent title={titles.title4}/>
+                                        <MainMenuContent title={titles.title5}/>
+                                        <MainMenuContent title={titles.title6}/>
                                     </div>
                                 </div>
                             </li>

@@ -1,24 +1,24 @@
 import React from 'react';
 import './menu.css';
-
 const menu=()=>{
-    return(
-        <section id="menu">
 
-            <div id="menuBackgroundImage">
-                <img src="http://mutationmedia.net/COFFEEBEN/img/6.jpg" id="menuImage" alt=""/>
+    return(
+        <section id="menu" className="overlay divider bg-light">
+
+            <div className="background-img menuImage">
+                <img src="http://mutationmedia.net/COFFEEBEN/img/6.jpg" alt=""/>
             </div>
 
-            <div id="menuContainer">
-                <div id="menuInnerContainer1">
-                    <div id="menuInnerContainer2">
-                        <div id="menuInnerContainer3">
-                            <div id="menuTitleBlock">
-                                <img id="waves" src="http://mutationmedia.net/COFFEEBEN/img/waves-light.png" alt=""/>
-                                <h1 id="menuTitle">DISCOVER MENU</h1>
-                                <span id="menuTitleHeading">Delicious Drinks and Pastry</span>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-md-10 col-lg-9 ">
+                        <div className="block-content text-center front-p">
+                            <div className="block-title ">
+                                <img className="waves" src="http://mutationmedia.net/COFFEEBEN/img/waves-light.png" alt=""/>
+                                <h1 className="uppercase mb-0 text-white ">DISCOVER MENU</h1>
+                                <span className="text-white">Delicious Drinks and Pastry</span>
                             </div>
-                            <p id="menuPara">Coffee lovers love the aroma of coffee especially in the morning <br/>because coffee has a way to brighten moods.</p>
+                            <p className="lead text-white mt-4 mb-0">Coffee lovers love the aroma of coffee especially in the morning <br/>because coffee has a way to brighten moods.</p>
                         </div>
                     </div>
                 </div>

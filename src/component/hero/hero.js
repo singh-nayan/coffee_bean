@@ -7,8 +7,8 @@ import './hero.css';
 
 const hero=()=>{
     return (
-        <section id="hero">
-            {<HeroMainSlider/>}
+        <section className="hero">
+            <HeroMainSlider/>
             <NavBar/>
             <InnerHero/>
             <HeroSlider/>
