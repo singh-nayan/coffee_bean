@@ -2,36 +2,36 @@ import React from 'react';
 
 const navBar=()=>{
     return(
-        <header className="navBar">
+        <header className="header default">
 
-            <div className="left scroll">
-                <a className="coffeeImage scroll" href="#hero">
-                    <img clssName="coffeeLogo" src="http://mutationmedia.net/COFFEEBEN/img/logo.png" alt=""/>
+            <div className=" left-part">
+                <a className="logo scroll" href="#wrapper">
+                    <img src="http://mutationmedia.net/COFFEEBEN/img/logo.png" alt=""/>
                 </a>
             </div>
 
-            <div className="right">
-                <nav className="mainNav">
-                    <ul className="mainNavItems">
-                        <li className="mainNavItem">
+            <div className="right-part">
+                <nav className="main-nav">
+                    <ul className="main-menu list-inline">
+                        <li>
                             <a className="scroll list-inline-item" href="#about">about</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#menu">menu</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#offer">offer</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#location">location</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#reservation">reservation</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#gallery">gallery</a>
                         </li>
-                        <li className="mainNavItem">
+                        <li>
                             <a className="scroll list-inline-item" href="#contact">contact</a>
                         </li>
                     </ul>

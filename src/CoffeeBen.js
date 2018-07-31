@@ -15,7 +15,7 @@ import Footer from './component/footer/footer';
 const CoffeeBen=({store})=>{
     return(
         <div className="wrapper">
-            {/*<Hero/>*/}
+            {<Hero/>}
             {<About/>}
             {<Menu/>}
             {<MainMenu store={store}/>}

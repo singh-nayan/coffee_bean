@@ -11,7 +11,7 @@ const mainMenu=({store})=>{
         <section className="menu main pattern bg-light">
 
             <div className="background-img grain-img mainMenuBackground" style={mainMenuStyle}>
-                <img src="http://mutationmedia.net/COFFEEBEN/img/16.png" alt=""/>
+                <img src={mainMenuStyle} alt=""/>
             </div>
 
             <MainMenuContainer store={store}/>

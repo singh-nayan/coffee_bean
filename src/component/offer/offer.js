@@ -1,4 +1,16 @@
 import React from 'react';
+import OfferItems from './offerItems';
+import {offerData} from './offerData';
+
+let offerStyle={
+    overflow:"hidden",
+    position:"relative"
+}
+
+let offerStyleUL={
+    width: "800%",
+    transform: "translate3d(-1110px, 0px, 0px)"
+}
 
 const offer=()=>{
     return(
@@ -20,6 +32,24 @@ const offer=()=>{
             </div>
         
             <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-sm-12 col-lg-12">
+                        <div className="block-content text-center front-p">
+                            <div className="offer-slider flexslider">
+
+                                <div className="flex-viewport" style={offerStyle}>
+                                    <ul className="slides" style={offerStyleUL}>
+
+                                        <OfferItems offerData={offerData.data1}/>
+                                        <OfferItems offerData={offerData.data2}/>
+                                        
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )

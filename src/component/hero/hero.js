@@ -10,7 +10,7 @@ const hero=()=>{
             <HeroMainSlider/>
             <NavBar/>
             <InnerHero/>
-            <div className="polySlider"></div>
+            <div className="poly-slider"></div>
         </section>
     )
 }
