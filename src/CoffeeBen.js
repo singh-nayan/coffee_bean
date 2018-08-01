@@ -11,6 +11,8 @@ import Gallery from './component/gallery/gallery';
 import Location from './component/location/location';
 import Offer from './component/offer/offer';
 import Footer from './component/footer/footer';
+import Contact from './component/contact/contact';
+import Overlay from './component/overlay/overlay';
 
 const CoffeeBen=({store})=>{
     return(
@@ -19,10 +21,12 @@ const CoffeeBen=({store})=>{
             {<About/>}
             {<Menu/>}
             {<MainMenu store={store}/>}
+            {<Overlay/>}
             {<Offer/>}
             {<Location/>}
             {<Reservation/>}
-            {/*<Gallery/>*/}
+            {<Gallery/>}
+            {<Contact/>}
             {<Footer/>}
         </div>
     )

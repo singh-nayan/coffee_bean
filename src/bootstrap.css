@@ -6136,7 +6136,7 @@
   
   a.bg-light:hover, a.bg-light:focus,
   button.bg-light:hover,
-  button.bg-light:focus {
+  button.bg-light:focus { 
     background-color: #dae0e5 !important;
   }
   

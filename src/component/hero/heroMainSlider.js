@@ -3,14 +3,17 @@ import React from 'react';
 let heroMainSliderStyle={
     width: "100%",
     float: "left",
-    "margin-right": "-100%",
+    "marginRight": "-100%",
     position: "relative",
-    height: "391px"
+    height: "197px"
 }
 
-let heroMainSliderImageStyle={
-    "background-position":"initial"
+let herobckgndimg1={
+    "backgroundImage":`url(http://mutationmedia.net/COFFEEBEN/img/1.jpg)`
+}
 
+let herobckgndimg2={
+    "backgroundImage":`url(http://mutationmedia.net/COFFEEBEN/img/2.jpg)`
 }
 
 const heroMainSlider=()=>{
@@ -19,12 +22,12 @@ const heroMainSlider=()=>{
 
             <ul className="slides">
                 <li style={heroMainSliderStyle}>
-                    <div className="background-img overlay zoom" style={heroMainSliderImageStyle}>
+                    <div className="background-img overlay zoom" style={herobckgndimg1}>
                         <img src="http://mutationmedia.net/COFFEEBEN/img/1.jpg" alt=""/>
                     </div>
                 </li>
                 <li style={heroMainSliderStyle}>
-                    <div className="background-img overlay zoom" style={heroMainSliderImageStyle}>
+                    <div className="background-img overlay zoom" style={herobckgndimg2}>
                         <img src="http://mutationmedia.net/COFFEEBEN/img/2.jpg" alt=""/>
                     </div>
                 </li>
