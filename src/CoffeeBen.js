@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/index.css';
 import './css/bootstrap.css';
+import './css/flexislider.css'
 import Hero from './component/hero/hero';
 import Reservation from './component/reservation/reservation';
 import Menu from './component/menu/menu';
