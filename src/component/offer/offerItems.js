@@ -3,9 +3,9 @@ import OfferItemsIcons from './offerItemsIcons';
 
 const offerItems=({data,style})=>{
     return(
-        <li stye={style}>
+        <li>
             <div className="block-offer m-auto pt-5 pb-5">
-                <ul className="block-icon list-inline">
+                <ul className="block-icon list-inline">               
                     <OfferItemsIcons data={data.icon1}/>
                     <OfferItemsIcons data={data.icon2}/>
                     <OfferItemsIcons data={data.icon3}/>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const innerHero=()=>{
     return(
-        <div className="inner-Hero">
+        <div className="inner-hero">
             <div className="container hero-content">
                 <div className="row">
                     <div className="col-sm-12 text-center">

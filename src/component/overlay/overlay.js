@@ -1,5 +1,6 @@
 import React from 'react';
 import OverlayItems from './overLayItems';
+import {overlayData} from '../../data';
 
 let overlayStyle={
     "backgroundImage":`url(http://mutationmedia.net/COFFEEBEN/img/8.jpg)`,
@@ -8,6 +9,11 @@ let overlayStyle={
 let overlayULstyle={
     width:"1000%",
     transform:"translate3d(-700px, 0px, 0px)"
+}
+
+let overlaydivStyle={
+    overflow:"hidden",
+    position:"relative"
 }
 
 const overlay=()=>{
@@ -25,19 +31,17 @@ const overlay=()=>{
                             <img src="http://mutationmedia.net/COFFEEBEN/img/grains.png"/>
                             <div className="review-slider flexslider">
 
-                                <div className="flex-viewport">
+                                <div className="flex-viewport" style={overlaydivStyle}>
                                     <ul className="slides" style={overlayULstyle}>
 
-                                    <OverlayItems />
-                                    <OverlayItems />
-                                    <OverlayItems />
-                                    <OverlayItems />
-                                    <OverlayItems />
+                                    <OverlayItems data={overlayData.li1} classname="clone"/>
+                                    <OverlayItems data={overlayData.li2} classname=""/>
+                                    <OverlayItems data={overlayData.li3} classname=""/>
+                                    <OverlayItems data={overlayData.li3} classname=""/>
+                                    <OverlayItems data={overlayData.li4} classname="clone"/>
 
                                     </ul>
-                                </div>
-
-                                
+                                </div>                                
 
                             </div>
                         </div>

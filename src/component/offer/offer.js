@@ -45,16 +45,12 @@ const offer=()=>{
                             <div className="offer-slider flexslider">
 
                                 <div className="flex-viewport" style={offerStyle}>
-                                    <ul className="slides" style={offerStyleUL}>
+                                    <ul className="slides">
                                         <OfferItems data={offerData.data1}/>
                                         <OfferItems data={offerData.data2}/>
                                     </ul>
                                 </div>
                             
-                                <ul className="flex-direction-nav">
-                                    <OfferArrows data={offerData.arrowLeft}  style={offerItemStyle}/>
-                                    <OfferArrows data={offerData.arrowRight} style={offerItemStyle}/>
-                                </ul>
 
                             </div>
                         </div>

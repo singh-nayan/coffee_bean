@@ -6,7 +6,7 @@ export const offerData={
     data1:{
         title:"TYPES OF COFFEE",
         detail:"Another thing about coffee is the commublock-offer  m-auto pt-5 pb-5nity. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called. We already made up about coffee.",
-        icon1:"",
+        icon1:"/home/admin21/Downloads/cookies (1).png",
         icon2:"",
         icon3:""
     },
@@ -222,3 +222,32 @@ export const NYData={
         link:"https://www.google.com/maps/place/63+W+38th+St,+New+York,+NY+10018,+USA/@40.7522111,-73.98756,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aa5aa97895:0x6d7b46d19d74d82a!8m2!3d40.7522071!4d-73.9853713?shorturl=1"
     }
 }
+
+
+export const overlayData={
+    li1:{
+        head:"Magazin restaurant",        
+        para:"Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq. "
+    },
+
+    li2:{
+        head:"Chicago magazine",
+        para:"It’s an unlikely setting for an exquisite dining experience—served up by a couple straight out of a rom-com plot. ",
+    },
+
+    li3:{
+        head:"The telegraph",
+        para:"The food is plentiful and delicious, it is all part of the 'old world' sort of dining experience. "
+    },
+
+    li4:{
+        head:"Magazin restaurant",
+        para:"Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq. "
+    },
+
+    li5:{
+        head:"Chicago magazine",
+        para:"It’s an unlikely setting for an exquisite dining experience—served up by a couple straight out of a rom-com plot. "
+    }
+}
+

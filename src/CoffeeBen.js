@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/index.css';
+import './css/main.css';
 import './css/bootstrap.css';
 import './css/flexislider.css'
 import Hero from './component/hero/hero';
