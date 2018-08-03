@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImages from './aboutImages';
-import Images from './aboutImagesData';
+import {aboutImagesData} from '../../data';
 
 const about=()=>{
     return(
@@ -26,9 +26,9 @@ const about=()=>{
 
                     <div className="col-12 col-lg-9 ">
                         <div className="card-gallery image-gallery mb-5">
-                            <AboutImages image={Images.image1}/>
-                            <AboutImages image={Images.image2}/>
-                            <AboutImages image={Images.image3}/>
+                            <AboutImages image={aboutImagesData.image1}/>
+                            <AboutImages image={aboutImagesData.image2}/>
+                            <AboutImages image={aboutImagesData.image3}/>
                         </div>
                     </div>
 

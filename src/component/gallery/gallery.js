@@ -1,5 +1,5 @@
 import React from 'react';
-import {galleryData} from './gallerydata';
+import {galleryData} from '../../data';
 import GalleryItems from './galleryItems';
 
 let galleryStyle={

@@ -1,6 +1,6 @@
 import React from 'react' ;
 import LocationItems from './locationItems'; 
-import {NYData,chicagoData,brooklynData} from './location data';
+import {NYData,chicagoData,brooklynData} from '../../data';
 
 let locationStyle={
     backgroundImage:`url(http://mutationmedia.net/COFFEEBEN/img/9.jpg)`,

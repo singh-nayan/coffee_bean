@@ -3,7 +3,7 @@ import React from 'react';
 let heroMainSliderStyle={
     width: "100%",
     float: "left",
-    "marginRight": "-100%",
+    marginRight: "-100%",
     position: "relative",
     height: "197px"
 }

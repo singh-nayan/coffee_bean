@@ -1,7 +1,6 @@
 import React from 'react';
-import './index.css';
-import './bootstrap.css';
-import './main.css';
+import './css/index.css';
+import './css/bootstrap.css';
 import Hero from './component/hero/hero';
 import Reservation from './component/reservation/reservation';
 import Menu from './component/menu/menu';

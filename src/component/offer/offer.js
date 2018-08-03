@@ -1,7 +1,7 @@
 import React from 'react';
 import OfferItems from './offerItems';
 import OfferArrows from './offerArrows'
-import {offerData} from './offerData';
+import {offerData} from '../../data';
 
 let offerStyle={
     overflow:"hidden",
