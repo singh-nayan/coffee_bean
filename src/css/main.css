@@ -171,7 +171,7 @@ iframe {
 /*Basic Styles*/
 
 body {
-    background: #253544;
+    background-color: rgb(255, 252, 235);
     font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     color: #212932;
     margin: 0;
@@ -609,9 +609,7 @@ div[class*="col-"].gap-double-sm, .gap-double-sm {
 }
 
 
-.bg-light{
-    background: #fffceb;
-}
+
 
 /*End misc */
 

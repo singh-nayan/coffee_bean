@@ -17,10 +17,10 @@ const menu=()=>{
                         <div className="block-content text-center front-p">
                             <div className="block-title ">
                                 <img className="waves" src="http://mutationmedia.net/COFFEEBEN/img/waves-light.png" alt=""/>
-                                <h1 className="uppercase mb-0 text-white ">DISCOVER MENU</h1>
+                                <h1 className="uppercase mb-0 text-white " style={{"fontSize":"1.875rem"}}>DISCOVER MENU</h1>
                                 <span className="text-white">Delicious Drinks and Pastry</span>
                             </div>
-                            <p className="lead text-white mt-4 mb-0">Coffee lovers love the aroma of coffee especially in the morning <br/>because coffee has a way to brighten moods.</p>
+                            <p className="lead text-white mt-4 mb-0" style={{"fontSize":"1rem"}}>Coffee lovers love the aroma of coffee especially in the morning <br/>because coffee has a way to brighten moods.</p>
                         </div>
                     </div>
                 </div>

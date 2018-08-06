@@ -2,9 +2,13 @@ import React from 'react';
 import AboutImages from './aboutImages';
 import {aboutImagesData} from '../../data';
 
+let aboutStyle={
+    "backgroundColor": "#fffceb !important"
+}
+
 const about=()=>{
     return(
-        <section id="about" className="main md-top bg-light">
+        <section id="about" className="main md-top bg-light" style={aboutStyle}>
 
             <div className="container">
                 <div className="row justify-content-center">
@@ -12,7 +16,7 @@ const about=()=>{
                         <div className="block-content text-center gap-one-bottom-md">
                             <div className="block-title ">
                                 <img className ="waves" src="http://mutationmedia.net/COFFEEBEN/img/waves-dark.png" alt=""/>
-                                <h1 className="uppercase mb-0">THE COFFEE SHOP</h1>
+                                <h1 className="uppercase mb-0" style={{"fontSize":"1.875rem"}}>THE COFFEE SHOP</h1>
                                 <span className="beige">Welcome to Coffeeben</span>
                             </div>
                         </div>
