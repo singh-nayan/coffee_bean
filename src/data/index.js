@@ -6,7 +6,7 @@ export const offerData={
     data1:{
         title:"TYPES OF COFFEE",
         detail:"Another thing about coffee is the community. Coffee drinkers have something in common when we walk into a coffee shop. We are all anticipating for that ultimate cup as we stay in line for our names to be called. We already made up about coffee.",
-        icon1:"/home/admin21/Downloads/cookies (1).png",
+        icon1:"",
         icon2:"",
         icon3:""
     },
@@ -176,7 +176,7 @@ export const chicagoData={
     front:{
         title:"CHICAGO",
         heading:"COFFEESHOP HOURS",
-        detail:"Monday - Saturday: 11am - 8pm \n Sunday : 11am - 6pm",
+        detail:"Monday - Saturday: 11am - 8pm"+<br/>+" Sunday : 11am - 6pm",
         footer:"MORE INFO"
     },
 

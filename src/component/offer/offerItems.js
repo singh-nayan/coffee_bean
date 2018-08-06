@@ -1,9 +1,9 @@
 import React from 'react';
 import OfferItemsIcons from './offerItemsIcons';
 
-const offerItems=({data,style})=>{
+const offerItems=({data,classN,style})=>{
     return(
-        <li>
+        <li className={classN}>
             <div className="block-offer m-auto pt-5 pb-5">
                 <ul className="block-icon list-inline">               
                     <OfferItemsIcons data={data.icon1}/>

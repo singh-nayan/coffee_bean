@@ -5,9 +5,9 @@ const detail=()=>{
         <div className="container block-contact">
             <div className="row">
                 <div className="col-md-5  offset-md-7 offset-xs-7">
-                    <h1 className="uppercase text-white mb-4">get in touch with us</h1>
+                    <h1 className="uppercase text-white mb-4" style={{fontSize:"1.875rem"}}>get in touch with us</h1>
                     <div className="block-info mb-30">
-                    <p className="text-white lead mb-0">We are open from 9am — 6pm<br/> All days of the week. <br/><br/>
+                    <p className="text-white lead mb-0" style={{fontSize:"1rem"}}>We are open from 9am — 6pm<br/> All days of the week. <br/><br/>
                         63 W 38th St, New York
                         <br/>
                         NY 10018<br/>
@@ -21,7 +21,7 @@ const detail=()=>{
                         Chicago, IL 60601
                         <br/>
                         (513) 352-3209 <br/><br/>
-                        <span><a href="http://mutationmedia.net/COFFEEBEN/mailto:customer@coffeeben.net">customer@coffeeben.net</a></span>
+                        <span><a style={{color:"#c2a482"}} href="http://mutationmedia.net/COFFEEBEN/mailto:customer@coffeeben.net">customer@coffeeben.net</a></span>
                     </p>
                     </div>
                 </div>

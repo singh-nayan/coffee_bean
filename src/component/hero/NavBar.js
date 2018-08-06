@@ -2,12 +2,14 @@ import React from 'react';
 import NavBarItems from './navBarItems';
 
 let navBarStyle={
-    display:"block"
+    display:"block",
 }
 
 const navBar=()=>{
+    
     return(
-        <header className="header default" style={navBarStyle}>
+        
+        <header id="navBar" className="header default" style={navBarStyle}>
 
             <div className=" left-part">
                 <a className="logo scroll" href="#wrapper">

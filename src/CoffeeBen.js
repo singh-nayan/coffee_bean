@@ -13,10 +13,26 @@ import Offer from './component/offer/offer';
 import Footer from './component/footer/footer';
 import Contact from './component/contact/contact';
 import Overlay from './component/overlay/overlay';
+import $ from 'jquery';
+
+$(function() {
+    var header = $("#navBar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 600) {
+            header.addClass("header switched-header");
+        } else {
+            header.removeClass("header switched-header");
+            header.addClass("header default");
+        }
+    });
+  
+});
 
 const CoffeeBen=({store})=>{
     return(
-        <div className="wrapper">
+        <div id="wrapper">
             {<Hero/>}
             {<About/>}
             {<Menu/>}

@@ -8,20 +8,14 @@ let offerStyle={
     position:"relative"
 }
 
-let offerItemStyle={
-    width:"1110px",
-    float:"left",
-    display:"block"
-}
-
 let offerStyleUL={
     width: "800%",
-    transform: "translate3d(-1110px, 0px, 0px)"
+    transform: "translate3d(-1110px, 0px, 0px)",
 }
 
 const offer=()=>{
     return(
-        <section id="offer" className="main bg-light">
+        <section id="offer" className="main bg-light" style={{backgroundColor:"#fffceb"}}>
             
             <div className="container">
                 <div className="row justify-content-center">
@@ -46,8 +40,13 @@ const offer=()=>{
 
                                 <div className="flex-viewport" style={offerStyle}>
                                     <ul className="slides">
-                                        <OfferItems data={offerData.data1}/>
-                                        <OfferItems data={offerData.data2}/>
+
+                                        <OfferItems data={offerData.data1} classN="clone"/>
+                                        <OfferItems data={offerData.data1} classN=""/>
+                                        <OfferItems data={offerData.data2} classN=""/>
+                                        <OfferItems data={offerData.data2} classN="clone"/>
+
+
                                     </ul>
                                 </div>
                             
